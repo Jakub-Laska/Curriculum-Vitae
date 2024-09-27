@@ -31,15 +31,25 @@ body {
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    letter-spacing: 1px;
 }
 #loginLabel {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 2rem;
-    color: ;
 }
 #optional {
     color: gray;
     font-size: .8rem;
-    letter-spacing: 1px;
+}
+#loginBot {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.loginBotBtn {
+    min-width: 40px;
+    min-height: 40px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 100%;
 }
