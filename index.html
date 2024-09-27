@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RockPaperScissors</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script type="module" src="script.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="login">
-        <div id="loginMenu">
-            <div id="loginTop">
-                <label for="LoginInputBtn" id="loginLabel">Sign in</label>
-            </div>
-            <div id="LoginMid">
-                <input type="text" id="loginInput" placeholder=" optional*">
-                <button id="loginBtn">enter</button>
-            </div>
-            <div id="loginBot">
-                <a class="loginBotBtn" id="githubBtn" href="https://github.com/Jakub-Laska" target="_blank">
-                    <img class="loginBotIcon" src="images/github.png" alt="github icon"></a>
-                <a class="loginBotBtn" id="linkedinBtn" href="https://www.linkedin.com/in/jakub-laska-b24639324/" target="_blank">
-                    <img class="loginBotIcon" src="images/linkedin.png" alt="linkedin icon"></a>
-                <a class="loginBotBtn" id="emailBtn" href="mailto:jakub.laska1911@gmail.com" target="_blank">
-                    <img class="loginBotIcon" src="images/gmail.png" alt="gmail icon"></a>
-            </div>
+      <div id="loginMenu">
+        <div id="loginTop">
+          <label for="loginMid" id="loginLabel">Sign in</label>
         </div>
+        <div id="loginMid">
+          <input type="text" id="loginInput" placeholder=" optional" />
+          <button id="loginBtn">Enter</button>
+        </div>
+        <div id="loginBot">
+          <a
+            class="loginBotBtn"
+            id="githubBtn"
+            href="https://github.com/Jakub-Laska"
+            target="_blank"
+          >
+            <img class="loginBotIcon" src="images/github.png" alt="github icon"
+          /></a>
+          <a
+            class="loginBotBtn"
+            id="linkedinBtn"
+            href="https://www.linkedin.com/in/jakub-laska-b24639324/"
+            target="_blank"
+          >
+            <img
+              class="loginBotIcon"
+              src="images/linkedin.png"
+              alt="linkedin icon"
+          /></a>
+          <a
+            class="loginBotBtn"
+            id="emailBtn"
+            href="mailto:jakub.laska1911@gmail.com"
+            target="_blank"
+          >
+            <img class="loginBotIcon" src="images/gmail.png" alt="gmail icon"
+          /></a>
+        </div>
+      </div>
     </div>
-
+    <!-- Icon attributions -->
+    <!-- https://www.pexels.com/pl-pl/video/rece-reka-apple-owoc-4661349/ -->
     <!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> -->
     <!-- <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a> -->
     <!-- <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by rukanicon - Flaticon</a> -->
-    <video class="background-video" autoplay muted preload="auto" poster="images/backgroundFallback.jpg">
-    <source src="images/background.mp4" type="video/mp4">
-</body>
+    <video
+      class="background-video"
+      autoplay
+      muted
+      preload="auto"
+      poster="images/backgroundFallback.jpg"
+    >
+      <source src="images/background.mp4" type="video/mp4" />
+    </video>
+  </body>
 </html>

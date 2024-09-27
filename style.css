@@ -1,78 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
-    position: absolute;
-    opacity: .9;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  position: absolute;
+  opacity: 0.9;
 }
-#login  {
-    min-width: 500px;
-    min-height: 700px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 0 10px #00000099;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #f0f8ffb3;
+#login {
+  min-width: 500px;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px #00000099;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #f0f8ffb3;
 }
 #loginMenu {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 40%;
 }
 #loginTop {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    letter-spacing: 1px;
-    text-shadow: 0 0 3px #00000099;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 3px #00000099;
 }
 #loginLabel {
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5rem;
 }
-#loginInput, #loginBtn {
-    padding: .5rem;
-    border-radius: .5rem;
-    border: none;
-    box-shadow: 0 0 10px #00000099;
-    background-color: aliceblue;
+#loginMid {
+  display: flex;
+  gap: 0.8rem;
 }
-#loginBtn:hover, #loginInput:hover {
-    filter: brightness(.8);
-    transition: .3s;
-    transform: scale(1.05);
+#loginInput,
+#loginBtn {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 0 0 10px #00000099;
+  background-color: aliceblue;
+  color: gray;
+  font-size: 1.2rem;
+}
+#loginBtn:hover,
+#loginInput:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #720e07;
+}
+#loginBtn:hover {
+  cursor: pointer;
 }
 #loginBot {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 .loginBotIcon {
-    max-width: 40px;
-    max-height: 40px;
-    border-radius: 100%;
-    transition: .5s;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 100%;
+  transition: 0.5s;
 }
 .loginBotIcon:hover {
-    transform: rotate(360deg) scale(1.2) translate(4px, 4px);
-    opacity: .8;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+  transform: rotate(360deg) scale(1.2) translate(4px, 4px);
+  box-shadow: 0 0 15px #720e07;
 }
