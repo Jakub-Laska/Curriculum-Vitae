@@ -51,7 +51,7 @@ body {
     transition: .5s;
 }
 .loginBotIcon:hover {
-    transform: rotate(360deg) scale(1.2) translate(2px, 2px);
+    transform: rotate(360deg) scale(1.2) translate(4px, 4px);
     opacity: .8;
     box-shadow: 0 0 10px rgb(0, 0, 0);
 }
