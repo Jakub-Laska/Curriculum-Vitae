@@ -32,6 +32,7 @@ body {
     flex-direction: column;
     gap: .5rem;
     letter-spacing: 1px;
+    text-shadow: 0 0 3px #00000099;
 }
 #loginLabel {
     text-transform: uppercase;
@@ -52,4 +53,6 @@ body {
     min-height: 40px;
     background-color: rgba(0, 0, 0, 0.26);
     border-radius: 100%;
+    border: none;
+    box-shadow: 0 0 10px #00000099;
 }
