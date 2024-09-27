@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#login  {
+    min-width: 500px;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px #00000099;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+#loginMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 40%;
+}
+#loginTop {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+#loginLabel {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    color: ;
+}
+#optional {
+    color: gray;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
