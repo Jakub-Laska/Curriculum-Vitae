@@ -1,2 +1,5 @@
-# RockPaperScissors
-This repository contains a simple yet fun implementation of the classic Rock Paper Scissors game built using HTML, CSS, and JavaScript.
+cv - jakub laska
+
+loading screens a couple on random/ maybe something like skyrim theme
+linux interface with folders yadayada
+
