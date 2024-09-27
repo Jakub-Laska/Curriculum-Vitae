@@ -19,7 +19,7 @@ body {
   opacity: 0.9;
 }
 #login {
-  min-width: 500px;
+  width: 500px;
   min-height: 700px;
   display: flex;
   justify-content: center;
@@ -85,4 +85,15 @@ body {
 .loginBotIcon:hover {
   transform: rotate(360deg) scale(1.2) translate(4px, 4px);
   box-shadow: 0 0 15px #720e07;
+}
+
+@media screen and (max-width: 600px) {
+#login {
+    width: 100%;
+    min-height: 500px;
+    margin: 0;
+}
+#loginMid {
+    scale: .8;
+}
 }
