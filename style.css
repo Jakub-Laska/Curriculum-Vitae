@@ -39,20 +39,14 @@ body {
     font-weight: 900;
     font-size: 2rem;
 }
-#optional {
-    color: gray;
-    font-size: .8rem;
-}
 #loginBot {
     display: flex;
     justify-content: center;
     gap: 2rem;
 }
-.loginBotBtn {
-    min-width: 40px;
-    min-height: 40px;
-    background-color: rgba(0, 0, 0, 0.26);
+.loginBotIcon {
+    max-width: 40px;
+    max-height: 40px;
+    box-shadow: 0 0 5px black;
     border-radius: 100%;
-    border: none;
-    box-shadow: 0 0 10px #00000099;
 }
