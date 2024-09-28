@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 body {
   display: flex;
@@ -17,7 +17,17 @@ body {
   z-index: -2;
   position: absolute;
   opacity: 0.9;
+  filter: brightness(.8);
 }
+.loadingVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    position: absolute;
+    filter: brightness(.3);
+}
+
 #login {
   width: 500px;
   min-height: 700px;
@@ -86,36 +96,26 @@ body {
   transform: rotate(360deg) scale(1.2) translate(4px, 4px);
   box-shadow: 0 0 15px #720e07;
 }
-@media screen and (max-width: 600px) {
-#login {
-    width: 100%;
-    min-height: 500px;
-    margin: 0;
-}
-#loginMid {
-    scale: .8;
-}
-}
 #bodyLoading {
     display: none;
     width: 100%;
     height: 100%;
-    background: rgb(0,0,0);
     position: relative;
     overflow: hidden;
-}
-#smokeGif {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    bottom: -800px;
-    left: -500px;
-    overflow: hidden;
-    transform: rotate(70deg);
-    opacity: .4;
 }
 #loading {
     position: absolute;
     right: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+    #login {
+        width: 100%;
+        min-height: 500px;
+        margin: 0;
+    }
+    #loginMid {
+        scale: .8;
+    }
+    }
