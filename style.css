@@ -10,7 +10,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-.background-video {
+.backgroundVideo {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -86,7 +86,6 @@ body {
   transform: rotate(360deg) scale(1.2) translate(4px, 4px);
   box-shadow: 0 0 15px #720e07;
 }
-
 @media screen and (max-width: 600px) {
 #login {
     width: 100%;
@@ -96,4 +95,27 @@ body {
 #loginMid {
     scale: .8;
 }
+}
+#bodyLoading {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    position: relative;
+    overflow: hidden;
+}
+#smokeGif {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -800px;
+    left: -500px;
+    overflow: hidden;
+    transform: rotate(70deg);
+    opacity: .4;
+}
+#loading {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
