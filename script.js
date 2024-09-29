@@ -4,13 +4,13 @@ submitBtn.addEventListener("click", showLoadingScreen);
 
 function showLoadingScreen() {
   let bodyLoading = document.querySelector("#bodyLoading");
-  let backgroundVideo = document.querySelector(".backgroundVideo");
+  let backgroundVideo = document.querySelector(".loginBackgroundVideo");
   let login = document.querySelector("#login");
 
   backgroundVideo.style.display = "none";
   login.style.display = "none";
   bodyLoading.style.display = "block";
-  setTimeout(showInterface, 1);
+  setTimeout(showInterface, 4000);
 }
 
 let loginInput = document.querySelector("#loginInput");
