@@ -118,7 +118,7 @@ body {
     height: 100%;
     display: none;
     background-image: url(images/wallpaper.jpg);
-    filter: brightness(.8);
+    background-color: #80800080;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 2.5rem;
     background-color: rgba(0, 0, 0, 0.418);
 }
 /* media */
