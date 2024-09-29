@@ -103,11 +103,20 @@ body {
     position: relative;
     overflow: hidden;
 }
-#loading {
+#loadingAnimation {
     position: absolute;
     right: 0;
     bottom: 0;
     opacity: .6;
+}
+#interface {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-image: url(images/wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (max-width: 600px) {
