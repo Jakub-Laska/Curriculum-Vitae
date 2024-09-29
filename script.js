@@ -1,4 +1,4 @@
-//loading screen
+// show loading screen
 let submitBtn = document.querySelector("#loginBtn");
 submitBtn.addEventListener("click", showLoadingScreen);
 
@@ -19,7 +19,7 @@ loginInput.addEventListener("keypress", function (event) {
     showLoadingScreen();
   }
 });
-
+// show main interface
 function showInterface() {
     let bodyInterface = document.querySelector('#interface')
 
